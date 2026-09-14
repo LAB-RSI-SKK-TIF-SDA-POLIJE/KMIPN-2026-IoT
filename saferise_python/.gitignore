@@ -1,0 +1,45 @@
+# ===========================================
+# SafeRise - .gitignore
+# ===========================================
+
+# --- Model weights & binaries (besar, share manual via drive/USB) ---
+models/*.pt
+models/*.bin
+models/*.param
+models/*_ncnn_model/
+models/*_saved_model/
+!models/README.md
+!models/*.yaml
+
+# --- Virtual environment ---
+.venv/
+venv/
+env/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Video test lokal ---
+tests/videos/*
+!tests/videos/.gitkeep
+
+# --- Kredensial & environment ---
+config/.env
+.env
+
+# --- Screenshots ---
+screenshots/
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Misc placeholder files ---
+python
+mosquitto
