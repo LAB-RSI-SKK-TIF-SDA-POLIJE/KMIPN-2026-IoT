@@ -1,0 +1,37 @@
+name: saferise
+description: "SafeRise - AI Rooftop/Building Security Monitoring MVP"
+publish_to: "none"
+version: 1.1.0+2
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # MQTT client - ready to wire up to the Raspberry Pi broker.
+  # Currently unused because the app runs on DummyMqttService by default.
+  mqtt_client: ^10.3.1
+  intl: ^0.19.0
+  # Firebase Cloud Messaging
+  firebase_core: ^3.0.0
+  firebase_messaging: ^15.0.0
+  flutter_local_notifications: ^17.0.0
+  vibration: ^2.0.0
+  # Token storage and API communication
+  shared_preferences: ^2.2.0
+  http: ^1.1.0
+  # WebView untuk live camera stream dari Raspberry Pi
+  webview_flutter: ^4.10.0
+  # Alarm sound picker (system ringtone + file audio dari storage)
+  path_provider: ^2.1.0
+  file_picker: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

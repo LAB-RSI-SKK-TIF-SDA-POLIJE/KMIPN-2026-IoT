@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1077658306014",
+    "project_id": "saferise-alert-system",
+    "storage_bucket": "saferise-alert-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077658306014:android:60a65552efa9081964094f",
+        "android_client_info": {
+          "package_name": "com.example.saferise_mobileapps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7re_wiS5mPfNoRZalasJ_50LDOjDTjpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

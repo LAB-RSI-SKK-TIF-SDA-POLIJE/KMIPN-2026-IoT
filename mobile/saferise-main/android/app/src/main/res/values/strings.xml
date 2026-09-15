@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SafeRise notification channel labels -->
+    <string name="danger_alerts_channel_name">Danger Alerts</string>
+    <string name="danger_alerts_channel_description">Critical security alerts that require immediate attention</string>
+    <string name="normal_alerts_channel_name">Normal Alerts</string>
+    <string name="normal_alerts_channel_description">Standard security notifications</string>
+</resources>
