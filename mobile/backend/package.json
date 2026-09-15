@@ -1,0 +1,36 @@
+{
+  "name": "saferise-backend",
+  "version": "1.1.0",
+  "description": "SafeRise Backend Service - MQTT to FCM Push Notification Bridge",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "start:prod": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "saferise",
+    "mqtt",
+    "firebase",
+    "fcm",
+    "notifications",
+    "iot",
+    "security"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "mqtt": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

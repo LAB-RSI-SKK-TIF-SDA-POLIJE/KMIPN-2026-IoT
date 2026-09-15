@@ -1,0 +1,16 @@
+# Salin file ini menjadi build.config lalu isi nilai aslinya:
+#   Copy-Item build.config.example build.config
+# File build.config TIDAK di-commit (berisi kredensial broker).
+
+MQTT_HOST=your-cluster.s1.eu.hivemq.cloud
+MQTT_PORT=8883
+MQTT_USERNAME=
+MQTT_PASSWORD=
+
+# URL backend yang dipakai app (token FCM + sinkronisasi status).
+# Deploy lokal : http://<IP-PC>:3000  (HP & PC harus satu Wi-Fi)
+# Railway      : https://<domain>.up.railway.app
+BACKEND_URL=http://192.168.1.10:3000
+
+# Jenis build: apk (praktis untuk demo) | appbundle (untuk Play Store)
+FLUTTER_TARGET=apk
